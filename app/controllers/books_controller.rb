@@ -27,6 +27,7 @@ class BooksController < ApplicationController
     else
       @books = Book.all
       render :index
+      #ff
     end
   end
 
